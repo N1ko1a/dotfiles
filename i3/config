@@ -207,7 +207,7 @@ bar {
 }
 
 #Wallpaper
-exec_always feh --bg-scale /home/nikola/Pictures/Wallpapers/National_Park.jpg
+exec_always feh --bg-scale /home/neski/Nikola/Wallpapers/this.jpg
 
 # Interactive screenshot with Print Screen key
 bindsym Print exec gnome-screenshot -i
@@ -238,6 +238,6 @@ smart_gaps on
 
  #Touchpad tap enabled
 exec xinput set-prop "MSFT0001:00 0488:1014 Touchpad" "libinput Tapping Enabled" 1
-# exec xinput set-prop 17 "Device Enable" 0
 
-
+#Na pocetku postavljamo rezoluciju i ref
+exec xrandr --output HDMI-A-0 --mode 1920x1080 --rate 100.05
